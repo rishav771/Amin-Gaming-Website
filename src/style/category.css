@@ -1,0 +1,430 @@
+/*---------------header-----global variables-------*/
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*-------------------instagram------------*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+    font-family: "Cinzel", serif;
+    color: #fff;
+}
+
+.red {
+    color: #ed1c24;
+}
+
+.categories-hero {
+    background-image: url(../img/breadcrumb-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.categories-hero__header {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.categories-hero__header span {
+    color: #ed1c24;
+}
+
+.categories-hero__link-list {
+    margin: 0 auto;
+}
+
+.categories-hero__link-list li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.categories-hero__link-list li:not(:first-child)::before {
+    content: "/";
+    margin-right: 1rem;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+
+/*---------global-classes---------------*/
+
+.section-heading {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.section-heading::before {
+    content: "";
+    display: inline-block;
+    width: 0.65rem;
+    height: 1rem;
+    background: #c20000;
+    transform: skewY(-15deg) rotate(15deg);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    background: #440909;
+    transform: skewX(-15deg);
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+}
+
+.author-name {
+    color: #c20000;
+}
+
+.author-name::before {
+    content: "by ";
+    color: #707073 !important;
+}
+
+.categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories-grid .card {
+    width: 50%;
+    display: block;
+    min-width: 50%;
+}
+
+.card {
+    margin-bottom: 3.5rem;
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+}
+
+.card__img {
+    height: auto;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+
+.card__img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card__rating {
+    margin-top: -20px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 30px 15px 20px 25px;
+}
+
+.card__rating .rating {
+    display: inline-block;
+}
+
+.card__rating+.card__context {
+    display: inline-block;
+}
+
+.card__header {
+    font-family: "Cinzel", serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+}
+
+.card__info {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: #707073;
+    font-style: italic;
+}
+
+.card__info li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.card__info li:not(:first-child)::before {
+    content: "/";
+    margin-right: 1rem;
+}
+
+.card__secondary-info {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #c9c9cc;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.card--rating {
+    grid-template-columns: 2fr 5fr;
+}
+
+
+/*-------------------------pagenation-----------------------*/
+
+.pagination ol li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.pagination ol li a {
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*-----------------instagram -section related scss-------------------*/
+
+.main-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.light-dark-bg {
+    background: #0d0d0d;
+    padding-top: 4.5rem;
+}
+
+.main-instagram-section {
+    display: grid;
+    grid-template-columns: 67% 33%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 'insta social' 'insta hardware' 'insta sidebar' 'insta rating' 'insta form';
+}
+
+.instagram-section {
+    grid-area: insta;
+    margin-right: 5%;
+}
+
+.instagram-sidebar {
+    grid-area: sidebar;
+}
+
+.instagram-sidebar .gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.instagram-sidebar .gallery li {
+    display: inline-block;
+    width: 40%;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ratings {
+    grid-area: rating;
+}
+
+.ratings .card__context__header {
+    font-size: 0.9rem;
+}
+
+.social-media {
+    grid-area: social;
+}
+
+.hardware-guides {
+    grid-area: hardware;
+}
+
+
+/*------------------subscription section----------------------------*/
+
+.subscription-form {
+    grid-area: form;
+}
+
+.subscription-form form legend {
+    color: #fff;
+}
+
+.subscription-form form label {
+    display: none;
+}
+
+.subscription-form form input {
+    margin-top: 20px;
+    display: block;
+    width: 70%;
+    padding: 0.5rem 0.8rem;
+    background: #000;
+    transform: skewX(-15deg);
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    border: 1px solid #888;
+}
+
+.subscription-form form .btn {
+    display: block;
+    width: 80%;
+    padding: 0.5rem 0.8rem;
+    background: #c20000;
+    transform: skewX(-15deg);
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    border: 0px solid;
+}
+
+
+/*--------------rating-------------------*/
+
+.chart {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rating-number {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.display-none-class {
+    display: none;
+}
+
+.display-block-class {
+    display: block;
+}
+
+
+/*------------media queries for instagram section----------------*/
+
+@media screen and (max-width: 1096px) {
+    .main-instagram-section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 'insta insta' 'form rating' 'sidebar rating' 'social hardware';
+    }
+}
+
+
+/*--------------if screen is less than 844 px -------------------*/
+
+@media screen and (max-width: 844px) {
+    .main-instagram-section {
+        display: block;
+    }
+    .instagram-section .card {
+        display: block;
+    }
+    .categories-grid .card {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+/*-------------- post-review-page-------------------------------*/
+
+@media screen and (max-width: 1310px) {
+    .rev-content__rate__mid .mid-wrapper {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .main-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .rev-content__rate__mid .mid-wrapper {
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .main-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rev-content__rate__mid .mid-wrapper {
+        width: 11rem;
+    }
+    .rate-container .flex-top {
+        flex-wrap: wrap;
+    }
+    .rate-container .rev-content__rate__circle p {
+        top: 500%;
+    }
+    .rate-container .rev-content__rate__top {
+        margin-top: 12rem;
+        width: 100%;
+        margin-left: -0.5rem;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    .main-container {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .hero-rev h1 {
+        width: 28rem;
+    }
+}

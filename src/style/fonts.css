@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'aming';
+    src: url('../fonts/aming.eot?8sitie');
+    src: url('../fonts/aming.eot?8sitie#iefix') format('embedded-opentype'), url('../fonts/aming.ttf?8sitie') format('truetype'), url('../fonts/aming.woff?8sitie') format('woff'), url('../fonts/aming.svg?8sitie#aming') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="ga-"],
+[class*=" ga-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'aming' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ga-star:before {
+    content: "\e909";
+}
+
+.ga-clock:before {
+    content: "\e94e";
+}
+
+.ga-clock-solid:before {
+    content: "\e94f";
+}
+
+.ga-chat-bubble:before {
+    content: "\e96e";
+}
+
+.ga-gear:before {
+    content: "\e994";
+}
+
+.ga-menu1:before {
+    content: "\e9bd";
+}
+
+.ga-star-full:before {
+    content: "\e9d9";
+}
+
+.ga-heart:before {
+    content: "\e9da";
+}
+
+.ga-cancel-circle:before {
+    content: "\ea0d";
+}
+
+.ga-cross:before {
+    content: "\ea0f";
+}
+
+.ga-checkmark:before {
+    content: "\ea10";
+}
+
+.ga-play:before {
+    content: "\ea1c";
+}
+
+.ga-whatsapp:before {
+    content: "\ea93";
+}
+
+.ga-youtube:before {
+    content: "\ea9d";
+}
+
+.ga-menu:before {
+    content: "\e905";
+}
+
+.ga-chevron-down:before {
+    content: "\e906";
+}
+
+.ga-sign-in:before {
+    content: "\e901";
+}
+
+.ga-star-half-empty:before {
+    content: "\e90a";
+}
+
+.ga-star-half:before {
+    content: "\e90b";
+}
+
+.ga-star1:before {
+    content: "\e90c";
+}
+
+.ga-chevron-up:before {
+    content: "\e908";
+}
+
+.ga-chevron-down:before {
+    content: "\e906";
+}
+
+.ga-sign-in:before {
+    content: "\e901";
+}
+
+.ga-mail-solid:before {
+    content: "\e902";
+}
+
+.ga-mail:before {
+    content: "\e903";
+}
+
+.ga-mail-solid-x:before {
+    content: "\e904";
+}
+
+.ga-th-menu:before {
+    content: "\e907";
+}
+
+.ga-arrow-right:before {
+    content: "\e90d";
+}
+
+.ga-arrow-left:before {
+    content: "\e90e";
+}
+
+.ga-search:before {
+    content: "\e900";
+}
+
+.ga-arrow-right:before {
+    content: "\e90d";
+}
+
+.ga-arrow-left:before {
+    content: "\e90e";
+}
+
+.ga-snapchat-solid-round:before {
+    content: "\e93b";
+}
+
+.ga-instagram:before {
+    content: "\e93e";
+}
+
+.ga-snapchat:before {
+    content: "\e93f";
+    color: #fff;
+}
+
+.ga-twitter:before {
+    content: "\e942";
+    color: #fff;
+}
+
+.ga-facebook:before {
+    content: "\e943";
+}

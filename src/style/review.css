@@ -1,0 +1,360 @@
+/*---------------header-----global variables-------*/
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*-------------------------------------------- Post Review Page -------------------------------------------*/
+
+html {
+    font-size: 16px;
+}
+
+
+/*-------------------------------------------- Hero Banner starts -------------------------------------------*/
+
+.main-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.light-dark-bg {
+    background: #0d0d0d;
+    padding-top: 4.5rem;
+}
+
+.hero-rev {
+    background-image: url(../img/details-post-review.jpg);
+    height: 48rem;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.5rem;
+}
+
+.hero-rev .cont-wrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18rem;
+}
+
+.hero-rev__top ul li {
+    display: inline-block;
+    background-color: #c20000 4d;
+    font-size: 0.73rem;
+    transform: skew(-15deg);
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    margin-right: 5px;
+    z-index: 0;
+}
+
+.hero-rev h1 {
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    font-family: "Cinzel", "sans-serif";
+    font-weight: 700;
+    line-height: 3rem;
+    width: 35rem;
+}
+
+.hero-rev__bot {
+    color: #666;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.hero-rev__bot ul li {
+    display: inline-block;
+}
+
+.hero-rev__bot ul li .admin {
+    color: #c20000;
+}
+
+.hero-rev__bot ul li::after {
+    content: "/";
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+}
+
+.hero-rev__bot ul li:last-of-type::after {
+    content: "";
+}
+
+
+/*-------------------------------------------- Hero Banner ends -------------------------------------------*/
+
+
+/*-------------------------------------------- Main content starts -------------------------------------------*/
+
+.rev-content {
+    margin-top: 2rem;
+    color: #c4c4c4;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.5rem;
+}
+
+.rev-content .h2-head {
+    color: #fff;
+    font-family: "Cinzel";
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.rev-content__top-desc p {
+    padding-bottom: 2rem;
+}
+
+.rev-content__rate {
+    border: 1px solid #252525;
+}
+
+.rev-content__rate .rate-container {
+    margin: 1.9rem 1.9rem 1.9rem 1.9rem;
+}
+
+.rev-content__rate .rate-container .flex-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rev-content__rate__circle p {
+    color: #666;
+    position: relative;
+    top: 60%;
+    left: 30%;
+}
+
+.rev-content__rate__top {
+    width: 65%;
+    margin-left: 2rem;
+}
+
+.rev-content__rate__top h2 {
+    padding-bottom: 1rem;
+}
+
+.rev-content__rate__mid {
+    margin-top: 1.4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #252525;
+}
+
+.rev-content__rate__mid .mid-wrapper {
+    width: 18rem;
+}
+
+.rev-content__rate__mid ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rev-content__rate__mid ul li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex: 1 0 45%;
+}
+
+.rev-content__rate__mid ul li .design {
+    float: left;
+}
+
+.rev-content__rate__mid ul li .design-val {
+    float: right;
+}
+
+.rev-content__rate__mid ul li .title {
+    padding-bottom: 1rem;
+}
+
+.rev-content__rate__mid .myProgress {
+    margin-top: 1rem;
+    clear: both;
+    width: 100%;
+    background-color: #252525;
+}
+
+.rev-content__rate__mid .myProgress .myBar {
+    width: 1%;
+    height: 0.5rem;
+    background-color: #fff;
+}
+
+.rev-content__rate__op {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #252525;
+}
+
+.rev-content__rate__op p {
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.rev-content__rate__op li {
+    padding-bottom: 1.2rem;
+}
+
+.rev-content__rate__op__pros {
+    width: 48%;
+}
+
+.rev-content__rate__op__pros span {
+    color: #16b601;
+    padding-right: 0.5rem;
+}
+
+.rev-content__rate__op__cons {
+    width: 48%;
+}
+
+.rev-content__rate__op__cons span {
+    color: #c20000;
+    padding-right: 0.5rem;
+}
+
+.rev-content__rate__end {
+    margin-top: 1.5em;
+    height: 1rem;
+}
+
+.rev-content__rate__end p {
+    float: left;
+}
+
+.rev-content__rate__end .stars {
+    float: right;
+}
+
+.rev-content__rate__end .stars span {
+    color: #ffaf24;
+}
+
+.rev-content__bot-desc {
+    clear: both;
+    margin-top: 2rem;
+}
+
+.rev-content__bot-desc p {
+    padding-bottom: 1.5rem;
+}
+
+.rev-content__bot-desc .quote {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #252525;
+    box-shadow: 2px 2px #680606;
+    text-align: center;
+}
+
+.rev-content__bot-desc .quote p {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.rev-content__bot-desc .quote span {
+    color: #c20000;
+}
+
+.rev-content__bot-desc .q-after {
+    padding-top: 1.5rem;
+}
+
+.rev-content__bot-desc p {
+    padding-top: 2.5rem;
+}
+
+.chart-big {
+    position: relative;
+    width: 192px;
+    height: 192px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rating-number-big {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+
+/*-------------------------------------------- Main content ends -------------------------------------------*/
+
+
+/*-------------------------------------------- Post Review ends -------------------------------------------*/
+
+
+/*-------------- post-review-page-------------------------------*/
+
+@media screen and (max-width: 1310px) {
+    .rev-content__rate__mid .mid-wrapper {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .main-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .rev-content__rate__mid .mid-wrapper {
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .main-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rev-content__rate__mid .mid-wrapper {
+        width: 11rem;
+    }
+    .rate-container .flex-top {
+        flex-wrap: wrap;
+    }
+    .rate-container .rev-content__rate__circle p {
+        top: 500%;
+    }
+    .rate-container .rev-content__rate__top {
+        margin-top: 12rem;
+        width: 100%;
+        margin-left: -0.5rem;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    .main-container {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .hero-rev h1 {
+        width: 28rem;
+    }
+}
